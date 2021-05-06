@@ -1,6 +1,6 @@
 # Introduction
 
-Vancouver is one of the Top 10 cities to live in around the world, according to The Economist Intelligence Unit’s 2019 Global Liveability Index. One of my friends would like to move there and open a gym there, but is unsure of where he should open it. He has learned that I am doing a Data Science Certificate program, and is wondering if I could help him do some analysis and see which location in Vancouver may be the best. He wants to make sure there are not too many other gyms/indoor sports facilities located closeby already.
+Vancouver is one of the Top 10 cities to live in around the world, according to The Economist Intelligence Unit’s 2019 Global Liveability Index. One of my friends would like to move there and open a gym there, but is unsure of where he should open it. He has learned that I am doing a Data Science Certificate program, and is wondering if I could help him do some analysis and see which location in Vancouver may be the best. He wants to make sure there are not too many other gyms/indoor sports facilities located close by already.
 
 # Data
 
@@ -24,3 +24,10 @@ I used the k-means model to do the neighborhood clustering. I selected 5 cluster
 
 # Discussion
 
+I observed that most of the neighborhoods are clustered in Cluster 0. There are a lot of restaurants/coffee shops in that cluster. Sport opportunities, e.g. gyms, yoga studios, parks and trails, are quite common in that cluster. Cluster 1 has 4 neighborhoods, and the most common venue categories are also restaurants. Gyms are not listed in the Top 10 most common venues, and only one neighborhood has yoga studio as the 7th most common venue. Cluster 2 and Cluster 4 only have 1 neighborhood each, and has yoga studio as the Top 3rd and Top 4th most common venue respectively. Cluster 3 has 2 neighborhoods, but it has more sports facilities, e.g. park, yoga studio and field.
+
+Based on the clustering result, I would recommend my friend to look at the neighborhoods in Cluster 1 as the potential location to open his gym, since there doesn't seem to be many others in these neighborhoods.
+
+# Conclusion
+
+Based on the data analysis, I would recommend my friend to look at the neighborhoods in Cluster 1 (postal codes: V6M, V6P, V5W and V5Y) in Vancouver as the potential location to open his gym.
