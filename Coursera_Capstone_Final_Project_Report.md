@@ -12,7 +12,7 @@ I also used the data from Foursquare to get the nearby venues data for each post
 
 # Methodology
 
-I explored the Vancouver neighborhoods using Foursquare to get the Top 100 nearby venues data (within 500 meters radius) for each postal code in the Vancouver neighborhood data. I then grouped the results by neighborhood and by taking the mean of the frquency of the occurrence of each venue category. Then I used the Top 10 most common venue categories in each neighborhood for clustering.
+I explored the Vancouver neighborhoods using Foursquare to get the Top 100 nearby venues data (within 500 meters radius) for each postal code in the Vancouver neighborhood data. I then grouped the results by neighborhood and by taking the mean of the frequency of the occurrence of each venue category. Then I used the Top 10 most common venue categories in each neighborhood for clustering.
 
 I used the k-means model to do the neighborhood clustering. I selected 5 clusters for the analysis.
 
@@ -24,7 +24,7 @@ I used the k-means model to do the neighborhood clustering. I selected 5 cluster
 
 # Discussion
 
-I observed that most of the neighborhoods are clustered in Cluster 0. There are a lot of restaurants/coffee shops in that cluster. Sport opportunities, e.g. gyms, yoga studios, parks and trails, are quite common in that cluster. Cluster 1 has 4 neighborhoods, and the most common venue categories are also restaurants. Gyms are not listed in the Top 10 most common venues, and only one neighborhood has yoga studio as the 7th most common venue. Cluster 2 and Cluster 4 only have 1 neighborhood each, and has yoga studio as the Top 3rd and Top 4th most common venue respectively. Cluster 3 has 2 neighborhoods, but it has more sports facilities, e.g. park, yoga studio and field.
+I observed that most of the neighborhoods are clustered in Cluster 0. There are a lot of restaurants/coffee shops in that cluster. Sports opportunities, e.g. gyms, yoga studios, parks and trails, are quite common in that cluster. Cluster 1 has 4 neighborhoods, and the most common venue categories are also restaurants. Gyms are not listed in the Top 10 most common venues, and only one neighborhood has yoga studio as the 7th most common venue. Cluster 2 and Cluster 4 only have 1 neighborhood each, and has yoga studio as the Top 3rd and Top 4th most common venue respectively. Cluster 3 has 2 neighborhoods, but it has more sports facilities, e.g. park, yoga studio and field.
 
 Based on the clustering result, I would recommend my friend to look at the neighborhoods in Cluster 1 as the potential location to open his gym, since there doesn't seem to be many others in these neighborhoods.
 
